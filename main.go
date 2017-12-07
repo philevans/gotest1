@@ -13,4 +13,5 @@ func main() {
 	a = make(chan int, 1) 	// Actually make the channel with a buffer size of 1 item
 	a <- 4                	// Put an integer into the channel
 	fmt.Println(<-a)      	// Retrieve the integer from the channel and print it on screen
+	// another comment
 }
